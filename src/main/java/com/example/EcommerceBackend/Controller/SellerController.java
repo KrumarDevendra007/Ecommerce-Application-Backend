@@ -43,7 +43,6 @@ public class SellerController {
              catch (Exception e){
                  return new ResponseEntity(e.getMessage(), HttpStatus.BAD_REQUEST);
              }
-
     }
 
     // get by id

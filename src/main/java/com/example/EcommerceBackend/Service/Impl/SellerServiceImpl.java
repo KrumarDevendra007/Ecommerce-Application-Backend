@@ -65,6 +65,8 @@ public class SellerServiceImpl implements SellerService {
 
     @Override
     public List<SellerResponseDto> getAllSeller() {
-          
+        return null;
     }
+
+
 }
