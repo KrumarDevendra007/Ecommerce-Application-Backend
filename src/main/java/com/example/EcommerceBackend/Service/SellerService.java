@@ -1,8 +1,7 @@
 package com.example.EcommerceBackend.Service;
 
 import com.example.EcommerceBackend.DTO.RequestDTO.SellerRequestDto;
-import com.example.EcommerceBackend.DTO.ResponceDTO.SellerResponseDto;
-import com.example.EcommerceBackend.Entity.Seller;
+import com.example.EcommerceBackend.DTO.ResponseDTO.SellerResponseDto;
 import com.example.EcommerceBackend.Exception.EmailAlreadyPresentException;
 import com.example.EcommerceBackend.Exception.InvalidSellerException;
 

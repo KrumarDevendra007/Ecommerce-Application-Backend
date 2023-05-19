@@ -1,9 +1,7 @@
 package com.example.EcommerceBackend.Controller;
 
 import com.example.EcommerceBackend.DTO.RequestDTO.SellerRequestDto;
-import com.example.EcommerceBackend.DTO.ResponceDTO.SellerResponseDto;
-import com.example.EcommerceBackend.Entity.Seller;
-import com.example.EcommerceBackend.Exception.EmailAlreadyPresentException;
+import com.example.EcommerceBackend.DTO.ResponseDTO.SellerResponseDto;
 import com.example.EcommerceBackend.Exception.InvalidSellerException;
 import com.example.EcommerceBackend.Service.SellerService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -64,12 +62,4 @@ public class SellerController {
     public List<SellerResponseDto> getAllSeller(){
         return sellerService.getAllSeller();
     }
-
-    // update seller info based on email id
-
-    // delete a seller based on email
-
-    //delete by id
-
-    // get all sellers of a particular age
 }

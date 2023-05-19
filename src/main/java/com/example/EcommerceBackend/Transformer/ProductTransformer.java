@@ -1,7 +1,7 @@
 package com.example.EcommerceBackend.Transformer;
 
 import com.example.EcommerceBackend.DTO.RequestDTO.ProductRequestDto;
-import com.example.EcommerceBackend.DTO.ResponceDTO.ProductResponseDto;
+import com.example.EcommerceBackend.DTO.ResponseDTO.ProductResponseDto;
 import com.example.EcommerceBackend.Entity.Product;
 import com.example.EcommerceBackend.Enum.ProductStatus;
 

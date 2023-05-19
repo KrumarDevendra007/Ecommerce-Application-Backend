@@ -1,6 +1,5 @@
-package com.example.EcommerceBackend.DTO.ResponceDTO;
+package com.example.EcommerceBackend.DTO.ResponseDTO;
 
-import com.example.EcommerceBackend.Enum.ProductCategory;
 import com.example.EcommerceBackend.Enum.ProductStatus;
 import lombok.*;
 import lombok.experimental.FieldDefaults;

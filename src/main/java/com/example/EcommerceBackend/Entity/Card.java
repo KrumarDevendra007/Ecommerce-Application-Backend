@@ -2,10 +2,7 @@ package com.example.EcommerceBackend.Entity;
 
 import com.example.EcommerceBackend.Enum.CardType;
 import jakarta.persistence.*;
-import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import lombok.experimental.FieldDefaults;
 
 import java.util.Date;
@@ -16,6 +13,7 @@ import java.util.Date;
 @AllArgsConstructor
 @Table(name = "card")
 @FieldDefaults(level = AccessLevel.PRIVATE)
+@Builder
 public class Card {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

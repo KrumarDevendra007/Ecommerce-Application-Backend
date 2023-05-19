@@ -1,4 +1,4 @@
-package com.example.EcommerceBackend.DTO.ResponceDTO;
+package com.example.EcommerceBackend.DTO.ResponseDTO;
 
 import lombok.*;
 import lombok.experimental.FieldDefaults;

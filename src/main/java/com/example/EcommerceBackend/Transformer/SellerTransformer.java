@@ -1,11 +1,9 @@
 package com.example.EcommerceBackend.Transformer;
 
 import com.example.EcommerceBackend.DTO.RequestDTO.SellerRequestDto;
-import com.example.EcommerceBackend.DTO.ResponceDTO.SellerResponseDto;
+import com.example.EcommerceBackend.DTO.ResponseDTO.SellerResponseDto;
 import com.example.EcommerceBackend.Entity.Seller;
 import lombok.experimental.UtilityClass;
-
-import java.util.List;
 
 @UtilityClass
 public class SellerTransformer {

@@ -1,7 +1,7 @@
 package com.example.EcommerceBackend.Service.Impl;
 
 import com.example.EcommerceBackend.DTO.RequestDTO.SellerRequestDto;
-import com.example.EcommerceBackend.DTO.ResponceDTO.SellerResponseDto;
+import com.example.EcommerceBackend.DTO.ResponseDTO.SellerResponseDto;
 import com.example.EcommerceBackend.Entity.Seller;
 import com.example.EcommerceBackend.Exception.EmailAlreadyPresentException;
 import com.example.EcommerceBackend.Exception.InvalidSellerException;
@@ -11,7 +11,6 @@ import com.example.EcommerceBackend.Transformer.SellerTransformer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Service
